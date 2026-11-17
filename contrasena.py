@@ -6,7 +6,7 @@ contrasena = "EstoEsUnaContrasena123"
 #print(contrasena)
 
 def comprobar_longitud(contrasena):
-    if len(contrasena) >= 10:
+    if len(contrasena) >= 12:
         return True
     else:
         return False
@@ -28,3 +28,8 @@ def comprobar_mayuscula(contrasena):
 # comprobaciones función comprobar_mayuscula
 print(comprobar_mayuscula(contrasena))
 print(comprobar_mayuscula("sinmayusculas"))
+
+# comprobaciones de longitud con cadenas de 10, 11 y 12 caracteres:
+print(comprobar_longitud("Hola123456"))
+print(comprobar_longitud("Hola1234567"))
+print(comprobar_longitud("Hola12345678"))

@@ -6,7 +6,7 @@ contrasena = "EstoEsUnaContrasena123"
 #print(contrasena)
 
 def comprobar_longitud(contrasena):
-    if len(contrasena) >= 8:
+    if len(contrasena) >= 12:
         return True
     else:
         return False

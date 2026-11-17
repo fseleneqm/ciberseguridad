@@ -18,13 +18,13 @@ print(comprobar_numero(contrasena))
 # comprobaciones función comprobar_numero con dos cadenas distintas:
 print(comprobar_numero("Hola456"))
 print(comprobar_numero("byebye"))
+
 def comprobar_mayuscula(contrasena):
     for i in contrasena:
         if i.isupper():
             return "True"
     return False
 
-
-print(comprobar_longitud(contrasena))
+# comprobaciones función comprobar_mayuscula
 print(comprobar_mayuscula(contrasena))
 print(comprobar_mayuscula("sinmayusculas"))
